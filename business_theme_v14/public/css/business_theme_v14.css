@@ -154,7 +154,7 @@ input:focus{
 .btn-primary{
     color: #fff !important;
     background-color: var(--primary-color) !important;
-    border-radius: 0 !important;
+    /*border-radius: 0 !important;*/
 }
 .btn-primary:hover{
     background-color: #FF1B1FED !important;
@@ -254,7 +254,7 @@ header .form-control:focus{
 
 /* Input Fields */
 input{
-    border-radius: 0 !important;
+    /*border-radius: 0 !important;*/
 }
 .form-control{
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -277,7 +277,7 @@ symbol#icon-small-down{
 
 /* Table */
 .form-grid{
-    border-radius: 0;
+    /*border-radius: 0;*/
     border: 1px solid #bbbbbb;
 }
 .form-grid .grid-heading-row{
@@ -334,3 +334,46 @@ symbol#icon-small-down{
 .filter-button span.filter-icon svg.icon{
     stroke: var(--white-color);
 } */
+
+
+/*Zoni Theme CSS adjustments*/
+/* Navbar text color*/
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+}
+
+/* Bell svg color */
+.navbar .es-icon {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(0) brightness(100%) contrast(300%)
+}
+
+/* Login button /login */
+.for-login .btn:not(.btn-md):not(.btn-lg) {
+    padding: 4px 8px;
+    background-color: #004A93 !important;
+    /*border-radius: var(--border-radius) !important;*/
+}
+
+/* Login button /login with Office 368*/
+.for-login .page-card .page-card-body .btn-login-option {
+    font-size: var(--text-base);
+    font-weight: var(--weight-medium);
+    letter-spacing: 0.015em;
+    color: #FFF !important;
+    background: var(--gray-100);
+    box-shadow: none;
+    border: none;
+    display: flex;
+    place-content: center;
+}
+
+/* Hamburguer icon color */
+.navbar-light .navbar-toggler .icon {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(0) brightness(100%) contrast(300%)
+}
+
+/* Navbar record name */
+#navbar-breadcrumbs li.disabled a {
+    color: var(--gray-400);
+    pointer-events: none;
+}
