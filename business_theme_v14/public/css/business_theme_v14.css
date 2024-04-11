@@ -241,10 +241,12 @@ header .form-control:focus{
 .layout-side-section .sidebar-label .icon{
     stroke: var(--primary-color);
 }
+/*
 .list-sidebar-button{
-    background-color: #c8c4c4 !important;
+    background-color: #f2f2f2 !important;
     box-shadow: none !important;
 }
+*/
 .list-sidebar-button:active,
 .list-sidebar-button:focus{
     text-decoration: none !important;
@@ -354,6 +356,11 @@ symbol#icon-small-down{
     /*border-radius: var(--border-radius) !important;*/
 }
 
+.for-signup .btn:not(.btn-md):not(.btn-lg){
+    padding: 4px 8px;
+    background-color: #004A93 !important;
+}
+
 /* Login button /login with Office 368*/
 .for-login .page-card .page-card-body .btn-login-option {
     font-size: var(--text-base);
@@ -376,4 +383,29 @@ symbol#icon-small-down{
 #navbar-breadcrumbs li.disabled a {
     color: var(--gray-400);
     pointer-events: none;
+}
+
+/*Hide help menu*/
+li.nav-item.dropdown.dropdown-help.dropdown-mobile {
+    display: none !important;
+}
+
+/*Blog title*/
+h1,h2,h3,h4,h5,h6 {
+    color: #004a93;
+}
+
+/*Blogs titles in cards*/
+.text-dark {
+    color: #004a93 !important;
+}
+
+/*Tabs titles active*/
+.form-tabs-list .form-tabs .nav-item .nav-link.active {
+    color: #007BFF;
+}
+
+/*Tabs titles inactive*/
+.form-tabs-list .form-tabs .nav-item .nav-link {
+    color: #004A93;
 }
