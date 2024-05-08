@@ -258,7 +258,7 @@ header .form-control:focus{
 input{
     /*border-radius: 0 !important;*/
 }
-.form-control{
+html[data-theme="light"] .form-control{
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     background-color: #f2f2f2 !important;
 }
@@ -408,4 +408,9 @@ h1,h2,h3,h4,h5,h6 {
 /*Tabs titles inactive*/
 .form-tabs-list .form-tabs .nav-item .nav-link {
     color: #004A93;
+}
+
+/*Home navbar*/
+.navbar-light .navbar-brand span {
+    color: rgba(255, 255, 255, 0.9);
 }
