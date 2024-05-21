@@ -209,7 +209,7 @@ html:not([data-theme="dark"]) #navbar-breadcrumbs a {
     text-decoration: none;
 }
 html:not([data-theme="dark"]) header .form-control{
-    color: var(--white-color);
+    /* color: var(--white-color); */
 }
 html:not([data-theme="dark"]) header .form-control:focus{
     border: 0;
